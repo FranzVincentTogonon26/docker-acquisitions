@@ -1,0 +1,25 @@
+{
+  "name": "docker-acquisitions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranzVincentTogonon26/docker-acquisitions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/FranzVincentTogonon26/docker-acquisitions/issues"
+  },
+  "homepage": "https://github.com/FranzVincentTogonon26/docker-acquisitions#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
