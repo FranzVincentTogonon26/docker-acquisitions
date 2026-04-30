@@ -7,3 +7,17 @@
 7. Update package.js, Add drizzle orm
 8. Create Models user.model.js and Run npm run db:generate
 9. Migrate to Database Run npm run db:migrate
+10. Setup Logger and Middlewate by Run npm i winston
+11. Add file logger.js 
+12. See https://github.com/winstonjs/winston and copy winston.createLogger:
+13. Add logger in app.js
+14. Setup Alias in package.js ass "imports"
+15. SetUp Helmet Run npm i helmet          
+16. SetUp Morgan Run npm i morgan
+17. SetUp Run npm i cors cookie-parser
+18. SetUp authentication in routes add file auth.routes.js
+29. Install Run npm i jsonwebtoken bcryptjs
+30. Add jwt.js
+31. Add cookie.js
+32. Install Run npm i zod
+33. 
