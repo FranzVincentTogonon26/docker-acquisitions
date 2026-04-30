@@ -21,6 +21,16 @@
 31. Add cookie.js
 32. Install Run npm i zod
 33. Install Run npm i @arcjet/node @arcjet/inspect
+34. Testing Project using JEST Run ( npm install --save-dev jest ) source: https://jestjs.io/ folow the instruction
+35. Testing Project using SUPERTEST Run ( npm install supertest --save-dev ) 
+36. Run npm init jest@latest
+    ✔ Would you like to use Jest when running "test" script in "package.json"? … yes
+    ✔ Would you like to use Typescript for the configuration file? … no
+    ✔ Choose the test environment that will be used for testing › node
+    ✔ Do you want Jest to add coverage reports? … yes
+    ✔ Which provider should be used to instrument code for coverage? › v8
+    ✔ Automatically clear mock calls, instances, contexts and results before every test? … yes
+37. Testing Run npm run test
 
 SOURCE: https://www.youtube.com/watch?v=H5FAxTBuNM8&list=PLBbtM6Jufu4slY1uhWNRp5XMBsvllG1Xs&index=17&t=3044s
 DevKit: https://jsmastery.com/video-kit/310a7f1a-fd45-4a65-bcd5-64b97f810ce6

@@ -4,3 +4,24 @@
 {"level":"info","message":"::1 - - [30/Apr/2026:11:21:06 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T11:21:06.440Z"}
 {"level":"info","message":"Hello from Acquisitions!","service":"docker-acquisitions-api","timestamp":"2026-04-30T11:21:12.135Z"}
 {"level":"info","message":"::1 - - [30/Apr/2026:11:21:12 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T11:21:12.136Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:13:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:13:36.436Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:13:36 +0000] \"GET /api HTTP/1.1\" 200 50 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:13:36.447Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:13:36 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:13:36.454Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:13:57 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:13:57.964Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:13:57 +0000] \"GET /api HTTP/1.1\" 200 50 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:13:57.973Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:13:57 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:13:57.980Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:16:36 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:16:36.891Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:16:36 +0000] \"GET /api HTTP/1.1\" 200 50 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:16:36.902Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:16:36 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:16:36.907Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:18:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:18:45.439Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:18:45 +0000] \"GET /api HTTP/1.1\" 200 50 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:18:45.498Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:18:45 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:18:45.547Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:20:45 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"jest-test\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:20:45.578Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:20:45 +0000] \"GET /api HTTP/1.1\" 200 50 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:20:45.634Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:20:45 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"-\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:20:45.682Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:22:40 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"jest-test\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:22:40.196Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:22:40 +0000] \"GET /api HTTP/1.1\" 200 50 \"-\" \"jest-test\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:22:40.249Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:22:40 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"jest-test\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:22:40.298Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:26:40 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"jest-test\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:26:40.636Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:26:40 +0000] \"GET /api HTTP/1.1\" 200 50 \"-\" \"jest-test\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:26:40.690Z"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [30/Apr/2026:14:26:40 +0000] \"GET /nonexsistent HTTP/1.1\" 404 27 \"-\" \"jest-test\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T14:26:40.738Z"}
