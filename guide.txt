@@ -1,0 +1,9 @@
+1. Setup folders for standard project architecture
+2. Configure ESLint and Prettier
+3. Install NEON and Drizzle ORM Run npm i @neondatabase/serverless drizzle-orm     
+4. Install Drizzle Kit Run npm i -D drizzle-kit          
+5. Configure and Setup Drizzle
+6. Configure and Setup Database
+7. Update package.js, Add drizzle orm
+8. Create Models user.model.js and Run npm run db:generate
+9. Migrate to Database Run npm run db:migrate
