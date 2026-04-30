@@ -11,12 +11,14 @@ A Node.js application using Express, Neon Database, and Drizzle ORM, containeriz
 ## Setup
 
 1. Clone the repository:
+
    ```bash
    git clone <repository-url>
    cd docker-acquisitions
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
@@ -24,14 +26,18 @@ A Node.js application using Express, Neon Database, and Drizzle ORM, containeriz
 3. Configure environment variables:
 
    ### Development
+
    Copy and update `.env.development`:
+
    ```bash
    cp .env.development .env.development.example  # If you have a template
    # Edit .env.development with your Neon API credentials
    ```
 
    ### Production
+
    Copy and update `.env.production`:
+
    ```bash
    cp .env.production .env.production.example  # If you have a template
    # Edit .env.production with your production Neon database URL and secrets
@@ -48,6 +54,7 @@ The development setup uses **Neon Local** to run a local PostgreSQL proxy that c
 ```
 
 This script will:
+
 - Check for `.env.development`
 - Start Neon Local proxy in Docker
 - Run database migrations
@@ -74,6 +81,7 @@ The production setup connects directly to your **Neon Cloud Database**.
 ```
 
 This script will:
+
 - Check for `.env.production`
 - Run database migrations against the cloud database
 - Start the production container
@@ -94,6 +102,7 @@ docker compose -f docker-compose.prod.yml down
 - **Production**: `NEON_DATABASE_URL=postgresql://[your-neon-cloud-url]`
 
 The application automatically detects the environment and configures Neon accordingly:
+
 - For local/Neon Local URLs, it uses HTTP fetch endpoint
 - For cloud URLs, it uses secure connections
 
@@ -110,6 +119,7 @@ The application automatically detects the environment and configures Neon accord
 ### Dockerfile
 
 Multi-stage build:
+
 - `base`: Node.js 18 Alpine with dependencies
 - `development`: Includes dev dependencies, runs with `npm run dev`
 - `production`: Optimized for production, runs with `npm start`
@@ -150,6 +160,7 @@ npm run db:studio
 ## Health Checks
 
 The application includes health endpoints:
+
 - `GET /health`: Basic health check
 - `GET /`: Application status
 
@@ -179,12 +190,14 @@ Docker containers include health checks for automatic restarts.
 ### Logs
 
 View application logs:
+
 ```bash
 docker logs acquisitions-app-dev  # Development
 docker logs acquisitions-app-prod  # Production
 ```
 
 View Neon Local logs:
+
 ```bash
 docker logs acquisitions-neon-local
 ```
@@ -192,6 +205,7 @@ docker logs acquisitions-neon-local
 ## Deployment
 
 For production deployment:
+
 1. Set up your Neon cloud database
 2. Configure `.env.production` with production secrets
 3. Run `./scripts/prod.sh` on your server

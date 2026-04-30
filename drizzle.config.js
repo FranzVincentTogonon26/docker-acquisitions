@@ -6,5 +6,5 @@ export default {
   dialect: 'postgresql',
   dbCredentials: {
     url: process.env.NEON_DATABASE_URL,
-  }
+  },
 };

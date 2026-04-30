@@ -2,7 +2,7 @@ import request from 'supertest';
 import app from '#src/app.js';
 
 const api = request(app);
-const withUA = (req) => req.set('User-Agent', 'jest-test');
+const withUA = req => req.set('User-Agent', 'jest-test');
 
 describe('API Endpoints', () => {
   describe('GET /health', () => {
