@@ -1,6 +1,6 @@
 # Docker Acquisitions App
 
-A Node.js application using Express, Neon Database, and Drizzle ORM, containerized for development and production environments.
+A Node.js application using Express, bNeon Database, and Drizzle ORM, containerized for development and production environments.
 
 ## Prerequisites
 
