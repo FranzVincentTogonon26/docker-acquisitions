@@ -20,4 +20,4 @@
 30. Add jwt.js
 31. Add cookie.js
 32. Install Run npm i zod
-33. 
+33. Install Run npm i @arcjet/node @arcjet/inspect
