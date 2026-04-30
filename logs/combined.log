@@ -1,2 +1,6 @@
 {"level":"info","message":"Hello from Acquisitions!","service":"docker-acquisitions-api","timestamp":"2026-04-30T07:48:18.335Z"}
 {"level":"info","message":"::1 - - [30/Apr/2026:07:48:18 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T07:48:18.342Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"docker-acquisitions-api","timestamp":"2026-04-30T11:21:06.436Z"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:21:06 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T11:21:06.440Z"}
+{"level":"info","message":"Hello from Acquisitions!","service":"docker-acquisitions-api","timestamp":"2026-04-30T11:21:12.135Z"}
+{"level":"info","message":"::1 - - [30/Apr/2026:11:21:12 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36\"","service":"docker-acquisitions-api","timestamp":"2026-04-30T11:21:12.136Z"}

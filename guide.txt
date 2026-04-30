@@ -21,3 +21,6 @@
 31. Add cookie.js
 32. Install Run npm i zod
 33. Install Run npm i @arcjet/node @arcjet/inspect
+
+SOURCE: https://www.youtube.com/watch?v=H5FAxTBuNM8&list=PLBbtM6Jufu4slY1uhWNRp5XMBsvllG1Xs&index=17&t=3044s
+DevKit: https://jsmastery.com/video-kit/310a7f1a-fd45-4a65-bcd5-64b97f810ce6
